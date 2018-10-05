@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.info-section{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    background: #476696;
+    padding: 54px;
+    height: 100%;
+     
+}
+.info-section .info-box{
+    position: absolute;
+    padding: 5%;
+    top: 200px;
+       
+}
+.info-section .info-box h4{
+    font-size: 1.2rem;
+    color: white;
+    margin: 0.7rem 0;
+    
+}
+.info-section .info-box p{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color:white;
+    margin: 0.2rem 0 1.6rem;
+
+}
+.info-section .btn{
+    background: #9FB3D6; 
+    border-radius: 30px;
+    text-align: center;
+    color:#476696 ;
+    border: 2px solid white;
+    font-size: 1rem;
+    letter-spacing: 1.1px;
+    font-weight: 300;
+    width: 100%;
+    margin: 10px -15px;
+}
+.info-section .btn a{
+    text-decoration: none;
+    color: #476696;
+}
+
+.info-section .btn a:hover{
+   color:lightseagreen;
+   transition: ease-in-out 0.2s;
+}
+
+.info-section .logo img{
+  /*  float: left;
+    font-size: 5rem;
+    text-align: center;*/
+     margin-left: 10%; 
+     margin-top: 5%;
+     height: 100px;
+     width: 100px;
+     
+}
+.info-box .icon-section a{
+    color: white;
+    text-decoration: none;
+    padding: 0 0.5rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    transition: ease-in-out 0.2s
+
+}
+.info-box .icon-section a:hover{
+    color: #9FB3D6;
+    
+}
+
+/*------------portfolio-section-----------------------*/
+.portfolio-section{
+    width: 60%;
+    margin: 0 0 0 30%;
+    margin-top: 15px;
+    height: 100%;
+}
+
+.portfolio-section .work1 .project1{
+    width: 49%;
+    display: inline-block;
+    border: 1px solid black;
+    float: left;
+    height: 45vh;
+    margin: 0 1% 1% 0;
+    border-radius: 20px;
+    
+}
+
+.portfolio-section .work1 .project1 img{
+    height: 45vh;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 20px;    
+}
+
+.portfolio-section .work1 .project1
+img:hover{
+    opacity: 0.7;
+    filter: alpha(opacity=30);
+    transition: ease-in 0.3s;
+    -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    
+}
+.portfolio-section .work1  .project2{
+    width: 49%;
+    display: inline-block;
+    border: 1px solid black;
+    float: left;
+    height: 45vh;
+    margin-bottom: 1%;
+    border-radius: 20px; 
+}
+.portfolio-section .work1 .project2 img{
+    height: 45vh;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 20px;  
+}
+.portfolio-section .work1 .project2 
+img:hover{
+    opacity: 0.7;
+    filter: alpha(opacity=30);
+    transition: ease-in 0.3s;
+    -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+      
+}
+
+.portfolio-section .work2  .project3{
+    width: 49%;
+    display: inline-block;
+    border: 1px solid black;
+    float: left;
+    height: 45vh;
+    border-radius: 20px; 
+}
+.portfolio-section .work2 .project3 img{
+    height: 45vh;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 20px;  
+}
+.portfolio-section .work2 .project3 
+img:hover{
+    opacity: 0.7;
+    filter: alpha(opacity=30);
+    transition: ease-in 0.3s;
+    -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+      
+}
+
+.portfolio-section .work2  .project4{
+    width: 49%;
+    display: inline-block;
+    float: left;
+    height: 45vh;
+    border: 1px solid black;
+    margin-left: 1%;
+    background-color: black;
+    border-radius: 20px; 
+}
+.portfolio-section .work2 .project4 img{
+    height: 45vh;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;   
+}  
+.portfolio-section .work2 .project4
+img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=30);
+    transition: ease-in 0.3s;
+    -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+      
+} 
+
+
+/*------------end portfolio-section-----------------------*/
+.dropbtn {
+    background-color: white;
+    padding: 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    right: 16px;
+    top: 6px;
+    color: #476696;
+    font-size: 1.3rem;
+    padding: 10px;
+    z-index: 1000;  
+   
+}
+.drop-down {
+    position: relative;
+    display: inline-block;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    border-radius: 3px;
+
+}
+.dropdown-content a {
+    color: #476696;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 1px;
+    transition: ease-in-out 0.2s
+
+}
+.dropdown-content a:hover {
+    background-color: #1A3969;
+
+}
+.drop-down:hover .dropdown-content {
+    display: block;
+    right: 0;
+}
+.dropdown-content a:hover  {
+    color: #9FB3D3;
+}
+
+
+ 

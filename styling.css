@@ -1,0 +1,238 @@
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    box-sizing: border-box;
+}
+
+.info-section{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 35%;
+    background: #476696;
+    padding: 54px;
+    height: 100%;
+     
+}
+.info-section .info-box{
+    position: absolute;
+    padding: 54px;
+    top: 200px;
+}
+.info-section .info-box h4{
+    font-size: 1.2rem;
+    color: white;
+    margin: 0.7rem 0;
+}
+.info-section .info-box p{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color:white;
+    margin: 0.2rem 0 1.6rem;
+
+}
+.info-section .icon-section{
+    color: white;
+    font-size: 1.5rem;
+    
+    display: inline-block;
+    
+}
+
+.info-section .logo img{
+  /*  float: left;
+    font-size: 5rem;
+    text-align: center;*/
+     margin-left: 23%; 
+     margin-top: 5%;
+     height: 135px;
+     width: 135px;
+     
+}
+.info-box .icon-section a{
+    color: white;
+    text-decoration: none;
+    padding: 0 0.5rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    transition: ease-in-out 0.2s
+
+}
+.info-box .icon-section a:hover{
+    color: #9FB3D6;
+    
+}
+.content-area{
+    margin-left: 35%;
+    background:white;
+    width: 65%;
+    height: 100%;
+    padding: 0 0 0 25%;
+    
+}
+.content-area .profile-section{
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+    max-width: 500px;
+    padding: 25% 0 0 0;
+    
+}
+
+.content-area .profile{
+    /*position: absolute;*/
+  
+   
+}
+.content-area .profile h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 1rem 0;
+    
+}
+.content-area .profile h1 span{
+    color: #476696;
+    
+}
+.content-area .profile h5 {
+    font-size: 1.1rem;
+    margin: 0 0 1rem;
+ 
+}
+.content-area .profile p {
+    color: #565595;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0 0 2rem 0;
+}
+.primary-btn{
+   display: inline-block;
+   
+}
+.ghost-btn{
+   display: inline-block;
+    
+    
+}
+
+.ghost-btn a:link{
+    text-decoration: none;
+}
+.ghost-btn a:hover{
+    color:#9FB3D3;
+    transition: ease-in-out 0.2s
+
+}
+.ghost-btn a{
+    background: white; 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: #476696;
+    border: 2px solid #1A3969;
+    padding: 5px 30px;
+    margin-left: 8%;
+    margin-top: 5%;
+    letter-spacing: 1.5px;
+    
+}
+.primary-btn a:link{
+    text-decoration: none;
+}
+.primary-btn a:hover{
+    color: #9FB3D3;
+    transition: ease-in-out 0.2s
+}
+
+.primary-btn a{
+    background: #476696; 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    border: 2px solid #9FB3D3;
+    padding: 5px 25px;
+    margin-top: 5%;
+    letter-spacing: 1.5px;
+}
+
+
+.img-container{
+    width: 30%;
+    display: inline-block;
+    
+}
+ .img-container .user-img img{
+    width: 25%;
+    height:calc(90% - 100px);
+    position: absolute;
+    left: 350px;
+    top: 85px;
+    border-radius: 30px;
+    background: url(../photo/my_pic.jpeg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dropbtn {
+    background-color: white;
+    padding: 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    right: 16px;
+    top: 6px;
+    color: #476696;
+    font-size: 1.3rem;
+    padding: 10px;
+    z-index: 1000;  
+
+}
+.drop-down {
+    position: relative;
+    display: inline-block;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    border-radius: 15px;
+
+}
+.dropdown-content a {
+    color: #476696;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    transition: ease-in-out 0.2s
+
+}
+.dropdown-content a:hover {
+    background-color: #1A3969;
+
+}
+.drop-down:hover .dropdown-content {
+    display: block;
+    right: 0;
+}
+.dropdown-content a:hover  {
+    color: #9FB3D3;
+}
+
+
+ 
