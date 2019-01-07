@@ -1,0 +1,722 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Start of Header Section*/
+header{
+    position: relative;
+    color: black;
+    background-image: url("../header2.jpg");
+    width: 100%;
+    height: 100vh;
+    object-fit:contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    display: inline-block;
+    color: #335941;
+    font-size: 40px;
+    padding: 10px 20px;
+}
+
+.nav {
+    display: inline-block;
+    text-align: right;
+    font-family: 'Pacifico';
+    width: 90%;
+    margin: 20px 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: #4F8C6C;
+    align-items: center;
+    padding: 20px; 
+    font-size: 25px;
+    width: 100%;
+}
+.nav a:hover{
+    transition: ease-in-out 0.2s;
+    color:#222D3F;
+}
+.topImg{
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.topImg h5{
+    color: #A7DDA7;
+    font-family: 'Pacifico';
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 1.4px;
+}
+.topImg h1{
+    color: #4F8C6C;
+    font-family: 'Pacifico';
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: 1.3px;
+}
+.contact-info{
+    margin-top: 80px;
+}
+.topImg .contact-info .reservations{
+    color: gray;
+    font-size: 20px;
+    font-family: 'Roboto'; 
+    margin-bottom: 10px; 
+}
+.topImg .contact-info h4{
+    color: #4F8C6C; 
+    font-family: 'Roboto'; 
+    font-weight: 200; 
+}
+.topImg .contact-info .opening-hours{
+    color: gray;
+    font-size: 20px;
+    font-family: 'Roboto';
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.topImg .contact-info p{
+    font-family:'Roboto';
+    color: darkgray;
+}
+/*End of Header Section*/
+/*----------------------------------------------*/
+/*Start of "Our Story" Section*/
+.first-container{
+   background-color:  #4F8C6C;
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   
+}
+.first-container .left-content{
+    width: 50%;
+    text-align: center;
+    padding: 150px 1%;
+    display: inline-block;
+}
+.first-container .left-content h5{
+    font-family: "Pacifico";
+    color: #A7DDA7;
+    font-weight: 100;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+}
+.first-container .left-content h1{
+    font-family: "Pacifico";
+    color: 222D3F;
+    font-weight: 100;
+    letter-spacing: 1.1px;
+}
+.first-container .left-content p{
+    font-family: "Roboto";
+    color: lightgray;
+    text-align: left;
+    padding: 20px 20%;
+    margin-top: 10px;
+}
+.first-container .left-content .menu-btn{  
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.first-container .left-content .menu-btn a{
+    text-decoration: none;
+    color: #A7DDA7;
+    
+    font-family: "Pacifico";
+    font-size: 18px;
+    padding: 5px 5%;
+    border: 2px solid #A7DDA7;
+    border-radius: 25px;
+    letter-spacing: 1.2px;
+}
+.first-container .left-content .menu-btn a:hover{
+    color: #222D3F;
+    border-color: #222D3F;
+    transition: ease-in-out 0.2s;
+    
+}
+
+
+.first-container .right-content{
+    width: 50%;
+    display: inline-block;
+    float: right;
+    margin: 180px auto;
+    overflow: auto;
+}
+/*.first-container .right-content .slider{
+    position: relative;
+    overflow: hidden;
+    float: left;
+
+}
+.first-container .right-content .slider img{
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    display: none;
+    object-fit: cover;
+}
+.first-container .right-content .slider img.active {
+    display: inline-block;
+    
+}
+.first-container .right-content .slider-outer .prev{
+    float: left;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    margin-top: 140px;
+    margin-left: -15px;
+    padding: 2px 10px;
+    background:#222D3F;
+    color: #78BE97;
+    font-size: 27px;
+    border-radius: 5px;
+}
+
+.first-container .right-content .slider-outer .next{
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    margin-top: 140px;
+    margin-left: 470px;
+    padding: 2px 10px;
+    background:#222D3F;
+    color: #78BE97;
+    font-size: 26px;
+    border-radius: 5px;
+}*/
+
+.rotating-item-wrapper {
+    position: relative;
+    width: 80%;
+    height: 350px;
+    overflow: hidden;
+    float: left;
+    margin: 0 20% 0 0;
+}
+.rotating-item-wrapper .rotating-item {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 5px;
+    
+    
+}
+
+/*End of "Our Story" Section*/
+/*--------------------------------------------*/
+
+/*Start of "Featured Menu" Section*/
+.second-container{
+    height: 100vh;
+    width: 100%;
+    background: #222D3F;
+    align-content: center;
+}
+.second-container h6{
+    font-family: "Pacifico";
+    color: rgba(255, 255, 255, 0.342);
+    font-weight: 200;
+    font-size: 17px;
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.second-container h1{
+    font-family: "Pacifico";
+    color: lightseagreen;
+    font-weight: 200;
+    letter-spacing: 1.2px;
+    width: 100%;
+    text-align: center;
+}
+.second-container .background-panel{
+    width: 70%;
+    text-align: center;
+    margin: 0 15%;
+    
+}
+.second-container .left-panel{
+    width: 33%;
+    display: inline-block;
+    padding: 10px 0;
+    float: left;
+        
+}
+.second-container .left-panel .left-picture img{
+    width: 80%;
+    height: 55vh;
+}
+.second-container .left-panel .left-content{
+    width: 100%;
+}
+.second-container .left-panel .left-content h5{
+    color: lightseagreen;
+    margin: 10px 0 5px 0;
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}
+.second-container .left-panel .left-content p{
+    color: lightgrey;
+    text-align:center;
+    padding: 0 15%;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+}
+/*start middle content*/
+.second-container .middle-panel{
+    width: 33.4%;
+    display: inline-block;
+    padding: 10px 0;
+    float: left;
+    
+}
+.second-container .middle-panel .middle-picture img{
+    width: 80%;
+    height: 55vh;
+}
+.second-container .middle-panel .middle-content h5{
+    color: lightseagreen;
+    margin: 10px 0 5px 0;
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}
+.second-container .middle-panel .middle-content p{
+    color: lightgrey;
+    text-align:center;
+    padding: 0 15%;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+}
+/*start right content*/
+.second-container .right-panel{
+    width: 33.3%;
+    display: inline-block;
+    padding: 10px 0;
+    float: left;
+}
+.second-container .right-panel .right-picture img{
+    width: 80%;
+    height: 55vh;
+}
+
+.second-container .right-panel .right-content h5{
+    color: lightseagreen;
+    margin: 10px 0 5px 0;
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}
+.second-container .right-panel .right-content p{
+    color: lightgrey;
+    text-align:center;
+    padding: 0 15%;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/*End of "Featured Menu" Section*/
+/*--------------------------------------------*/
+
+/*Start of Quote Section*/
+
+.third-container{
+    background-image:url('../third-section.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size:cover;
+    background-position-y: 50%;
+    position: relative;
+}
+.third-container .quote-section{
+    width: 100%;
+    padding: 90px 0;
+    text-align: center;
+    
+}
+.third-container .quote-section h1{
+    font-family: "Roboto Slab";
+    color: white;
+    font-size: 48px;
+    font-weight: 100;
+    padding: 0 5%;
+}
+.third-container .quote-section h4{
+    font-family: "Roboto";
+    color:#A7DDA7;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/*End of Quote Section*/
+
+/*-------------------------------------------*/
+
+/*Start Promotions and Events section*/
+
+.fourth-container{
+    width: 100%;
+    height: 100vh;
+    background: #222D3F;
+        
+}
+
+.fourth-container .top-header{
+    width: 100%;
+    padding: 35px 0;
+    text-align: center;
+    font-family: 'Pacifico';
+    color: lightseagreen;
+    font-size: 25px;
+   
+}
+
+.fourth-container .content-area1{
+    width: 40%;
+    float: left;
+    margin: 0 5%;
+}
+.fourth-container .content-area1 img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 2px;
+    border: 3px solid #222D3F;
+    
+}
+.fourth-container .content-area1 .other{
+    text-align: center;
+    padding-top: 10px;
+}
+.fourth-container .content-area1 .other h5{
+    font-family: "Pacifico";
+    color: lightseagreen;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.fourth-container .content-area1 .other p{
+    font-family: "Roboto Slab";
+    color: lightgreen;
+}
+/*------2-------*/
+
+.fourth-container .content-area2{
+    width: 40%;
+    float: right;
+    margin: 0 5%;
+}
+.fourth-container .content-area2 img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 2px;
+    border: 3px solid #222D3F;
+    
+}
+.fourth-container .content-area2 .other{
+    text-align: center;
+    padding-top: 10px;
+}
+.fourth-container .content-area2 .other h5{
+    font-family: "Pacifico";
+    color: lightseagreen;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.fourth-container .content-area2 .other p{
+    font-family: "Roboto Slab";
+    color: lightgreen;
+}
+
+/*End Promotions and Events section*/
+/*---------------------------------------------*/ 
+
+/*Start of Customer Pictures Section*/
+
+.additional-container{
+    width: 100%;
+    height: 100vh;
+    background: #4F8C6C;
+}
+.additional-container .customer-pics-header{
+    text-align: center;
+    padding: 30px 0;
+    font-family: "Pacifico";
+    color:#222D3F;
+    font-size: 28px;
+    
+}
+.additional-container .customer-text{
+    font-family: "Roboto Slab";
+    color: white;
+    text-align: center;
+    margin: -20px 0;
+    
+}
+
+.additional-container .slide{
+    margin: 40px 25%;
+    height: 400px;
+    width: 50%;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+/*End of Customer Pictures Section*/
+/*----------------------------------------------*/
+/*Start Contact-us section*/
+
+.fifth-container{
+    width: 100%;
+    height: 70vh;
+    background: #233656;
+}
+.fifth-container h1{
+    width: 100%;
+    text-align: center;
+    font-family:"Pacifico";
+    padding: 25px 0;
+    font-size: 38px;
+    font-weight: 300;
+    color: #4F8C6C;
+}
+.fifth-container .background{
+    background: lightgray;
+    width: 80%;
+    height: 35vh;
+    margin: 50px 10%;
+    border-radius: 25px;
+}
+.fifth-container .contact-left{
+    width: 40%;
+    float: left;
+    display: inline-block;
+    background: transparent;
+    margin: 0 0 0 10%;
+    padding: 50px 0 0 30px;
+    text-align: center;
+    color: #222D3F;
+}
+.fifth-container .contact-left h2{
+    font-family: "Pacifico";
+    font-weight: 300;
+    font-size: 30px;
+    color: #222D3F;
+}
+.fifth-container .contact-left h5{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+}
+.fifth-container .contact-left h6{
+    font-family: "Roboto";
+    font-weight: 500;
+    padding-top: 10px;
+    font-size: 14px;
+}
+/*-----right container---------*/
+.fifth-container .contact-right{
+    width: 40%;
+    float: right;
+    display: inline-block;
+    background: transparent;
+    margin: 0 10% 0 0;
+    padding: 40px 0 35px 70px;
+    color: #222D3F;
+    
+}
+.fifth-container .contact-right h2{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 30px;
+}
+.fifth-container .contact-right h5{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+}
+.fifth-container .contact-right h6{
+    font-family: "Roboto";
+    font-weight: 500;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+/*End Contact-us section*/
+/*-----------------------------------------*/
+
+/*Start of Footer*/
+
+.footer{
+    width: 100%;
+    height: 30vh;
+    background: #233656;
+}
+.footer .icon-container{
+    width: 100%;
+}
+.footer .logo2{
+    text-align: center;
+    padding: 30px 0;
+    color: #335941;
+    font-size: 40px;
+}
+.footer .icon-container{
+   text-align: center;
+   letter-spacing: 15px;
+}
+.footer .footer-text{
+    font-family: "Roboto";
+    color: lightgray;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+/*End of Footer*/
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------MEDIA QUERIES-----------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+
+/*Tablet*/
+@media only screen and (max-width: 960px){
+    body{
+        width: 600px;
+    }
+}
+/*Mobile*/
+@media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+    }
+    header{
+        position: relative;
+        background-image: url("../header2.jpg");
+        width: 100%;
+        height: 100vh;
+        object-fit:contain;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+    .logo{
+        display: inline-block;
+        color: #335941;
+        font-size: 0.9rem;
+        margin: 0;
+        padding: 0.3rem;
+    }
+   
+    
+    .nav {
+        display: inline-block;
+        float: right;
+        font-family: 'Pacifico';
+        width: 90%;
+        margin: 0 0.3rem;
+       
+        
+    }
+    .nav a{
+        text-decoration: none;
+        color: #4F8C6C;
+        align-items: center;
+        padding: 0.3rem;
+        font-size: 0.9rem;
+        width: 90%;
+        
+    }
+    .topImg{
+        
+    }
+
+    .topImg h5{
+        color: #A7DDA7;
+        font-family: 'Pacifico';
+        font-weight: 300;
+        font-size: 1rem;
+        letter-spacing: 1.4px;
+        margin: -1rem;
+    }
+    .topImg h1{
+        color: #4F8C6C;
+        font-family: 'Pacifico';
+        font-size: 1.5rem;
+        font-weight: 200;
+        letter-spacing: 1.3px;
+    }
+    .topImg .contact-info{
+        margin: 7% 0 0 0;
+        display: inline-block;
+        width: 100%;
+    }
+    .topImg .contact-info .reservations{
+        color: gray;
+        font-size: 0.7rem;
+        font-family: 'Roboto'; 
+        margin-bottom: 1%; 
+    }
+    .topImg .contact-info h4{
+        color: #4F8C6C; 
+        font-family: 'Roboto'; 
+        font-weight: 200;
+        font-size: 0.6rem; 
+    }
+    .topImg .contact-info .opening-hours{
+        color: gray;
+        font-size: 0.7rem;;
+        font-family: 'Roboto';
+        margin-top: 20px;
+        margin-bottom: 1%;
+    }
+    .topImg .contact-info p{
+        font-family:'Roboto';
+        color: darkgray;
+        font-size: 0.6rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
