@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tolu Restaurant</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="grid-body">
+    
+   <div class="nav">
+    <div class="nav-logo">
+        tolu
+    </div>
+    <ul>
+        <li><a href="#" id="modalBtn" class= "button">contact</a></li>
+        <li> <a href="index.html">home</a></li>
+    </ul>
+   </div>
+   <div class="grid-container">
+        <div class="grid-item">
+            <img src="images/curry-img-2.JPG">
+        </div>
+        <div class="grid-item">
+            <img src="images/kokoda-img-1.JPG">
+        </div>
+        <div class="grid-item">
+            <img src="images/kokoda-img-2.JPG">
+        </div>
+        <div class="grid-item">
+            <img src="images/palusami-img.JPG">
+        </div>
+        <div class="grid-item">
+            <img src="images/vakalolo-img.JPG">
+        </div>
+        <div class="grid-item">
+            <img src="images/pakora-img.JPG">
+        </div>
+   </div>
+   <div id="simpleModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="closeBtn"> &times;</span>
+            <h2>we are under construction</h2>
+        </div>
+        <div class= 'modal-body'>
+            <h4 style= "text-align: center;">for inquiries, please email us!</h4>
+            <br>
+            <h5 style="display: inline-block; width: 30%;">email:</h5>
+            <br>
+            <p style="font-family: arial;">tolurestaurant@gmail.com</p>
+        </div>
+        <div class="modal-footer">
+           <a href="#"> <img src="images/facebook_icon.png" style="opacity:.75;"></a>
+           <a href="#"> <img src="images/twitter_icon.png" style="opacity:.75;"></a>
+           <a href="#"> <img src="images/youtube_icon.png" style="opacity:.75;"></a>
+        </div>
+    </div>
+</div>
+<script>
+
+/*----------------Modal pop-up------------------*/
+
+//Get modal element
+let modal = document.getElementById('simpleModal');
+
+//Get open modal button
+let modalBtn = document.getElementById('modalBtn');
+
+//get close button
+let closeBtn = document.getElementsByClassName('closeBtn')[0];
+
+/*-----------Open button functions------------*/
+
+//Listen for click (open)
+modalBtn.addEventListener('click', openModal);
+
+//Function to open modal
+function openModal(){
+    modal.style.display='block';
+ }
+
+
+/*----------Close button functions-----------*/
+
+//Listen for click (close)
+closeBtn.addEventListener('click', closeModal);
+//Function to close modal
+function closeModal(){
+    modal.style.display='none';
+}
+
+/*----Close on click outside of modal---------*/
+
+//Get window to close on click outside of modal
+window.addEventListener('click', outsideClick);
+
+//Function to close modal on outside click
+function outsideClick(e){
+    if (e.target == modal){
+        modal.style.display = "none";
+    }
+    
+}
+
+
+</script>
+</body>
+</html>
